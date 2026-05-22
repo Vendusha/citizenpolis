@@ -17,11 +17,8 @@ export const PTS = {
 } as const;
 
 export const OPTIONS = [
-  { v: 2,  l: 'Strongly agree'    },
-  { v: 1,  l: 'Lean agree'        },
-  { v: 0,  l: 'Uncertain'         },
-  { v: -1, l: 'Lean disagree'     },
-  { v: -2, l: 'Strongly disagree' },
+  { v: 2,  l: 'Agree'    },
+  { v: -2, l: 'Disagree' },
 ] as const;
 
 export const VIS_SCORE: Record<number, number> = {
