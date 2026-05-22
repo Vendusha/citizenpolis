@@ -8,13 +8,13 @@ interface Props {
 }
 
 const LABEL_OFFSETS = [
-  { dx: 0, dy: -112 },
-  { dx: 98, dy: 0 },
-  { dx: 80, dy: 108 },
-  { dx: -80, dy: 108 },
-  { dx: -98, dy: 0 },
+  { dx: 0, dy: -8 },
+  { dx: 0, dy: -8 },
+  { dx: 0, dy: -8 },
+  { dx: 0, dy: -8 },
+  { dx: 0, dy: -8 },
 ]
-const ANCHORS = ['middle', 'start', 'middle', 'middle', 'end'] as const
+const ANCHORS = ['middle', 'middle', 'middle', 'middle', 'middle'] as const
 
 export default function VennDiagram({ personas, ux, uy, sims }: Props) {
   const R = 90
